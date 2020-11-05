@@ -23,7 +23,6 @@ go test -v 2>&1 | go-junit-report > report.xml'''
             steps {
                 sh label: 'robot', script: '''cd test/api
                 source env/bin/activate
-                pip install -r requirements.txt
                 robot greeting.robot
                 deactivate'''
             }

@@ -4,4 +4,3 @@ test/api/*.html
 test/api/*.xml
 
 jenkinshome/
-test/api/env/
